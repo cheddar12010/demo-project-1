@@ -6,7 +6,6 @@ html, body {
   background-color: white;
 }
 
-
 .navbar {
   background: linear-gradient(90deg, rgb(20, 20, 25), #171727);  
   padding: 10px 30px;                                  
@@ -18,7 +17,6 @@ html, body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);           
 }
 
-
 .navbar-list {
   list-style-type: none;
   margin: 0;
@@ -28,7 +26,6 @@ html, body {
   align-items: center;    
   height: 100%;
 }
-
 
 .navbar-list li {
   margin: 0 25px;    
@@ -43,12 +40,10 @@ html, body {
   transition: color 0.3s ease, transform 0.3s ease;  
 }
 
-
 .navbar-list a:hover {
   color: #1e90ff;    
   transform: scale(1.1); 
 }
-
 
 .headersection {
   margin-top: 20px; 
@@ -71,8 +66,7 @@ html, body {
   font-size: 25px;
 }
 
-.service1div {
-
+.service1div, .service2div, .service3div {
   text-align: left;
   background-color: black;
   color: white;
@@ -81,40 +75,12 @@ html, body {
   padding-bottom: 1%;
 }
 
-.service1header {
+.service1header, .service2header, .service3header {
   font-size: 3em;
 }
 
-.service1ptag {
+.service1ptag, .service2ptag, .service3ptag {
   padding-bottom: 25px;
-}
-
-.service2div {
-
-  text-align: left;
-  background-color: black;
-  color: white;
-  padding-left: 5%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.service2ptag {
-  padding-bottom: 25px;
-}
-
-.service3div {
-
-  text-align: left;
-  background-color: black;
-  color: white;
-  padding-left: 5%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.service3ptag {
-  padding-bottom: 100px;
 }
 
 #customer-reviews {
@@ -306,11 +272,76 @@ ul li a:hover {
 }
 
 @media (max-width: 768px) {
+    /* Adjust Navbar */
+    .navbar-list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .navbar-list li {
+        margin: 10px 0;
+    }
+
+    /* Adjust header section */
+    .headersection {
+        padding: 20px;
+        margin-top: 80px;
+    }
+
+    /* Service Section */
+    .service1div, .service2div, .service3div {
+        padding-left: 10%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .service1header, .service2header, .service3header {
+        font-size: 2.5em;
+    }
+
+    /* Reviews */
+    .reviews-container {
+        padding: 20px;
+        margin: 0 10px;
+    }
+
+    #customer-reviews h1 {
+        font-size: 24px;
+    }
+
+    /* Contact Form */
     #contact h1 {
         font-size: 2rem;
     }
 
     form {
         width: 90%;
+        padding: 15px;
+    }
+
+    form input, form textarea {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    form button {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust font sizes further for very small screens */
+    .service1header, .service2header, .service3header {
+        font-size: 2em;
+    }
+
+    #customer-reviews h1 {
+        font-size: 20px;
+    }
+
+    .customer-rating h2 {
+        font-size: 22px;
     }
 }
