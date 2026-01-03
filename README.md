@@ -15,8 +15,3 @@ This is a demo project to showcase my web development skills. It features a faux
 ## To View Locally
 Go to:
 https://cheddar12010.github.io/demo-project-1/
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/demo-project-1.git
