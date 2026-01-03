@@ -1,7 +1,7 @@
-# Demo Project #1
+# My Website
 
 ## Overview
-This is a demo project to showcase my web development skills. It features a faux website with interactive elements and responsive design. The website uses HTML, CSS, and JavaScript to demonstrate various web development techniques.
+This is a website to showcase my web development skills. The website uses HTML, CSS, and JavaScript to demonstrate various web development techniques.
 
 ## Features
 - **Responsive Design**: Works on all devices (mobile, tablet, desktop).
@@ -14,4 +14,4 @@ This is a demo project to showcase my web development skills. It features a faux
 
 ## To View
 Go to:
-https://cheddar12010.github.io/demo-project-1/
+https://cheddar12010.github.io/mysite/
