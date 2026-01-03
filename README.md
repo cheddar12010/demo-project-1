@@ -12,6 +12,6 @@ This is a demo project to showcase my web development skills. It features a faux
 - **HTML5**: Used for structuring the web pages.
 - **CSS3**: Applied for styling, layout, and animations.
 
-## To View Locally
+## To View
 Go to:
 https://cheddar12010.github.io/demo-project-1/
